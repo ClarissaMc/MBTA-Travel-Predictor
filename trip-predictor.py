@@ -120,3 +120,8 @@ print(f"Mean Squared Error: {mse}")
 print(f"R2: {r2}")
 # print("Second Normalization Method")
 # print(f"R2: {r22}")
+
+# df_smaller = df.drop(df.tail(5000000).index, inplace=False)
+# df_smaller.to_csv('data/2023-Q2_HRTravelTimes-SMALLER.csv', index=False)
+# df_smaller = pd.read_csv('data/2023-Q2_HRTravelTimes-SMALLER.csv')
+# print(df_smaller.shape)
